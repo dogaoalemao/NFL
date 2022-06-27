@@ -1,0 +1,65 @@
+.logo {
+    width: 150px;
+    margin-left: 200px;
+}
+
+body {
+    background: linear-gradient(to right, #ec8787, #6262f4);
+    height: 100%;
+    padding: 50px;
+}
+
+#menu {
+    padding-right: 100px;
+    margin-right: 10px;
+    float: right;
+}
+
+h3 {
+    margin: 35px;
+    padding: 0;
+    color: white;
+}
+
+p {
+    margin: 40px;
+    color: white;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(24, 24, 206);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+a:hover, a:active {
+    background-color: rgb(167, 29, 29);
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bola {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0 25px 0;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.rodape {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    clear: both;
+}

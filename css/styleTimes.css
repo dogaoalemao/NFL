@@ -1,0 +1,96 @@
+.gallery img {
+  width: 100px;
+  margin-left: auto;
+}
+  
+.desc {
+  padding: 5px;
+  text-align: center;
+}
+  
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 11px;
+}
+  
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 20%;
+}
+  
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+  
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+  
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.time {
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+.time1 {
+  width: 500px;
+}
+h4 {
+  text-align: center;
+  background-color: rgb(129, 129, 129);
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+a {
+  float: right;
+}
+.menu:link, .menu:visited {
+  background-color: rgb(177, 177, 177);
+  color: black;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 5px 20px;
+  border-radius: 40px;
+  margin: 5px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.menu:hover, .menu:active {
+  background-color: rgb(117, 113, 31);
+  color: white;
+}
+
+.time1 {
+  margin-left: 50%;
+}
+
+div.gallery div.desc {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}
+
+div.gallery img {
+  width: 50%;
+  height: 50%;
+  margin-left: 10%;
+}
+div.descricao div.desc {
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+}
